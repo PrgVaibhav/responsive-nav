@@ -80,9 +80,9 @@ a:hover {
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 425px) {
   nav {
-    height: 8vh;
+    height: 14vh;
   }
   label.logo {
     font-size: 1.4rem;
