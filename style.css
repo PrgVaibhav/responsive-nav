@@ -64,11 +64,6 @@ a:hover {
   display: none;
 }
 
-@media (max-width: 810px) {
-  nav {
-    height: 5vh;
-  }
-}
 @media (max-width: 952px) {
   label.logo {
     font-size: 1.5rem;
@@ -80,7 +75,13 @@ a:hover {
   }
 }
 
-@media screen and (max-width: 425px) {
+@media (max-width: 810px) {
+  nav {
+    height: 10vh;
+  }
+}
+
+@media screen and (max-width: 630px) {
   nav {
     height: 14vh;
   }
@@ -116,6 +117,16 @@ a:hover {
 
   #check:checked ~ ul {
     left: 0;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  nav {
+    height: 14vh;
+  }
+
+  ul {
+    top: 4rem;
   }
 }
 
