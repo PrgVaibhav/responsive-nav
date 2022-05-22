@@ -75,9 +75,12 @@ a:hover {
   }
 }
 
-@media (max-width: 425px) {
+@media screen and (max-width: 425px), screen and (max-height: 625px) {
+  nav {
+    height: 10vh;
+  }
   label.logo {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     padding-bottom: 1rem;
   }
   .check-btn {
@@ -90,7 +93,7 @@ a:hover {
     width: 100%;
     height: 100vh;
     background: #2c3e50;
-    top: 3.7rem;
+    top: 3.9rem;
     left: -100%;
     text-align: center;
     transition: all 0.5s;
