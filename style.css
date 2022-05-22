@@ -81,7 +81,7 @@ a:hover {
   }
 }
 
-@media screen and (max-width: 630px), screen and (max-height: 625px) {
+@media screen and (max-width: 630px) {
   nav {
     height: 14vh;
   }
@@ -119,9 +119,9 @@ a:hover {
     left: 0;
   }
 }
-@media screen and (max-width: 425px), screen and (max-height: 625px) {
+@media screen and (max-width: 425px) {
   nav {
-    height: 10vh;
+    height: 14vh;
   }
   label.logo {
     font-size: 1.4rem;
@@ -158,9 +158,9 @@ a:hover {
   }
 }
 
-@media screen and (max-width: 390px), screen and (max-height: 625px) {
+@media screen and (max-width: 390px) {
   nav {
-    height: 10vh;
+    height: 14vh;
   }
 
   ul {
