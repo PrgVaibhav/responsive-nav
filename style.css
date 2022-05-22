@@ -81,7 +81,7 @@ a:hover {
   }
 }
 
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 630px), screen and (max-height: 625px) {
   nav {
     height: 14vh;
   }
@@ -119,14 +119,57 @@ a:hover {
     left: 0;
   }
 }
-
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 425px), screen and (max-height: 625px) {
   nav {
-    height: 14vh;
+    height: 10vh;
+  }
+  label.logo {
+    font-size: 1.4rem;
+    padding-bottom: 1rem;
+  }
+  .check-btn {
+    display: block;
+    font-size: 1rem;
   }
 
   ul {
-    top: 4rem;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c3e50;
+    top: 3.9rem;
+    left: -100%;
+    text-align: center;
+    transition: all 0.5s;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 3.125rem 0;
+    line-height: 1.875rem;
+  }
+
+  nav ul li a {
+    font-size: 1rem;
+  }
+
+  #check:checked ~ ul {
+    left: 0;
+  }
+}
+
+@media screen and (max-width: 390px), screen and (max-height: 625px) {
+  nav {
+    height: 10vh;
+  }
+
+  ul {
+    top: 3.9rem;
+  }
+}
+@media screen and (max-width: 290px) {
+  label.logo {
+    font-size: 1.2rem;
   }
 }
 
