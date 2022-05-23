@@ -109,7 +109,7 @@ a:hover {
     left: 0;
   }
 }
-@media screen and (max-width: 425px), screen and(max-width: 459px) {
+@media screen and (max-width: 425px) {
   label.logo {
     font-size: 1.4rem;
     padding-bottom: 1rem;
@@ -145,12 +145,12 @@ a:hover {
   }
 }
 
-@media screen and (max-width: 390px), screen and(max-width: 459px) {
+@media screen and (max-width: 390px) {
   ul {
     top: 3.9rem;
   }
 }
-@media screen and (max-width: 290px), screen and(max-width: 459px) {
+@media screen and (max-width: 290px) {
   label.logo {
     font-size: 1.2rem;
   }
