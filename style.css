@@ -74,7 +74,8 @@ a:hover {
   }
 }
 
-@media screen and (max-width: 630px), screen and(max-width: 459px) {
+@media screen and (max-width: 630px)
+{
   label.logo {
     font-size: 1.4rem;
     padding-bottom: 1rem;
